@@ -56,13 +56,19 @@ All endpoints require Basic Auth (`admin` / `password123`).
 
 ---
 
-### ✅ **Functionalities** ():
+## 🔁 Evolution Rationale (v1 → v3)
+
+### ✅ **Stage 1** (v1):
 - Basic product and stock movement support
 - Flat DB operations, no stores or auth
+
+### ✅ **Stage 2** (v2):
 - Added store tracking
 - Basic Auth
 - Rate limiting
 - Date filtering
+
+### ✅ **Stage 3** (v3):
 - Async endpoints with background task support
 - Audit logs
 - Redis caching
